@@ -1,0 +1,15 @@
+[project]
+name = "emoji-extract"
+version = "0.1.0"
+license = "MIT"
+description = "Extracts PNGs from *Apple Color Emoji.ttc* (or other SBIX fonts)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fonttools>=4.62.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.6",
+]
